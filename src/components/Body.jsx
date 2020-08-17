@@ -6,8 +6,8 @@ function Body(){
   return (
     <div className="row">
       <Sidebar />
-      <OrganizeBar />
-      <OrganizeBar />
+      <OrganizeBar style={{left: "16.67%"}} />
+      <OrganizeBar style={{left: "58.33%"}}/>
     </div>
   );
 }

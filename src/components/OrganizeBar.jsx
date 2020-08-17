@@ -1,9 +1,8 @@
 import React from "react";
 
-function OrganizeBar(){
+function OrganizeBar(props){
   return (
-    <div className="col-sm-5 bg-danger text-light">
-      // Header
+    <div className="col-sm-5 bg-danger text-light organizebar" style={props.style}>
       OrganizeBar
     </div>
   );
