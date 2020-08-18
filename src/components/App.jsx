@@ -7,7 +7,7 @@ function App(){
   return (
     <div>
       <Header />
-      <Body />
+      <Body data={playlist} />
     </div>
   );
 }

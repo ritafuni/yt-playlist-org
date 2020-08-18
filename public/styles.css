@@ -1,4 +1,21 @@
-/* From Bootstrap */
+.organizebar {
+  position: fixed;
+  top: 65px;
+  bottom: 0;
+  padding-top: 10px;
+  border: 1px solid white;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.organize-item {
+  margin: 10px 0;
+}
+
+.organize-text {
+  /* display: inline-block;
+  vertical-align: middle; */
+}
+
 .sidebar {
   position: fixed;
   top: 65px;
@@ -10,11 +27,7 @@
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
 }
 
-.organizebar{
-  position: fixed;
-  top: 65px;
-  bottom: 0;
-  padding-top: 10px;
-  border: 1px solid white;
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+.thumbnail {
+  width: 100%;
+  float: left;
 }
